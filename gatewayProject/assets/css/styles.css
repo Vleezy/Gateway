@@ -1,0 +1,170 @@
+/* ------------ Putting some text color ------------------*/
+* {
+  font-family: Ariel;
+  color: #fff;
+}
+
+/* ---------- html body full cover bgImage of Singapore with no sidebar/overflow  -------------*/
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(https://cdn.pixabay.com/photo/2017/09/04/18/00/marina-bay-of-singapore-2714866_960_720.jpg)
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+/*------------------------------ H2 Styling --------------*/
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+/*Second Line of text on every page*/
+.secLine {
+  text-align: center;
+  font-style: italic;
+}
+/* body paragraph in index */
+.a {
+  text-align: center;
+  font-size: 20px;
+}
+/* ------------- Transparent Box Styling ---------------- */
+.transbox {
+  margin: 30px;
+  border: 1px solid black;
+  /*filter: alpha(opacity=60);*/
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #fff;
+}
+/* ----------------- Head Styling / Nav -----------------*/
+.head1,
+.navarea {
+  height: 100px;
+  line-height: 100px;
+  background-color: #000;
+  margin-top: 0px;
+}
+
+.head1 {
+  width: 50%;
+  text-align: center;
+}
+
+.head2 {
+  font-size: 30px;
+}
+
+/*-------------------- Navigation Bar -----------*/
+.navarea {
+  width: 50%;
+  float: right;
+  list-style: none;
+}
+
+.navarea li {
+  display: inline-block;
+}
+.navarea li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-family: Ariel;
+  font-size: 22px;
+}
+.navarea li a:hover {
+  background: purple;
+}
+
+/*----------------- IT Styling ------------------------ */
+#IT {
+  /* Id */
+  background: rgba(75, 0, 130, 0.8);
+}
+
+#IT p {
+  margin: 30px 0;
+}
+
+.it-container {
+  width: 100%;
+  height: 100%;
+  display: flex; /* container with divs*/
+  flex-wrap: wrap; /* flow of lines*/
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  margin-bottom: 200px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 40%;
+  padding: 2%;
+}
+
+.box a {
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.box img {
+  height: 250px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  display: block;
+}
+@media screen and (max-width: 1000px) {
+  
+}
+
+.box img:hover {
+  background: purple;
+}
+
+/* -------------------- Footer Section ----------------*/
+.footer {
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0px;
+  background: black;
+  width: 100%;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  width: 130px;
+  justify-content: center;
+}
+
+.footer li {
+}
+
+.footer li a {
+  display: block;
+  padding: 10px;
+}
+
+.footer li a:hover {
+  background: purple;
+  color: black;
+}
+.copyright {
+  display: block;
+  justify-content: center;
+}
